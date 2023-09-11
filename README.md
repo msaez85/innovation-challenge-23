@@ -2,7 +2,7 @@
 TEAM: AI Alchemists
 
 Members:
-        Medina, ELida
+        Medina, Elida
         Durango, Javier
         Soliz, Benjamín
         Saez, Mario
