@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Side Menu</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="sidebar">
+            <div class="logo">
+                <img src="./assets/Sovos-Logo-White.svg" alt="Logo">
+            </div>
+            <div class="prod"><a class="menu-item" href="#"> TEST 2023</a></div>
+            <ul class="lista">
+                <li class="menu"><a class="menu-item" href="#"><i class="fas fa-user"></i> Sales Profiles</a></li>
+                <li class="menu"><a class="menu-item" href="#"><i class="fas fa-phone"></i> Discovery Calls</a></li>
+                <li class="menu"><a class="menu-item" href="#"><i class="fas fa-search"></i> Deep Dive Discovery</a></li>
+                <li class="menu"><a class="menu-item" href="#"><i class="fas fa-chart-bar"></i> Metrics</a></li>
+                <li class="menu"><a class="menu-item" href="#"><i class="fas fa-file-alt"></i> Proposal</a></li>
+                <li class="menu"><a class="menu-item" href="#"><i class="fas fa-comments"></i> Follow-Up</a></li>
+                <li class="menu"><a class="menu-item" href="#"><i class="fas fa-check-circle"></i> Approvals</a></li>
+                <li class="menu"><a class="menu-item" href="#"><i class="fas fa-chart-pie"></i> Reports</a></li>
+            </ul>
+        </nav>
+        <main class="principal">
+            <div class="container mt-5">
+                <h1>Sales Profiles</h1>
+
+                <div class="card main-det">
+                    <div class="card-body tarjeta">
+                        <h5 class="card-title titulo">Bank of America</h5>
+                        <p class="card-text"><strong>Five Star Ratio:</strong> ★★★★★</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#c1">
+                            Details
+                        </button>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="c1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog detalle">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-3" id="exampleModalLabel">Bank of America</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p><strong>Buyer:</strong> John Doe</p>
+                                <p><strong>Five Star Ratio:</strong> ★★★★★</p>
+                                <p><strong>Top News Links:</strong></p>
+                                <ul class="top3">
+                                    <li class="list-det"><a
+                                            href="https://news.google.com/topics/CAAqLAgKIiZDQkFTRXdvSUwyMHZNREZqY0hKNUVnSmxiaWdBUAE?hl=en-US&gl=US&ceid=US%3Aen">Bank
+                                            of America News</a></li>
+                                    <li class="list-det"><a
+                                            href="https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREZqY0hKNUVnSmxiaWdBUAE?hl=en-US&gl=US&ceid=US%3Aen">Banking
+                                            and Finance News</a></li>
+                                    <li class="list-det"><a
+                                            href="https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREZqY0hKNUVnSmxiaWdBUAE?hl=en-US&gl=US&ceid=US%3Aen">Bank
+                                            of America Business</a></li>
+                                </ul>
+                                <p><strong>Selling Template:</strong></p>
+                                <p>Hello! Bank of America stands tall as a 5-star institution in the banking industry.
+                                    Whether you're a retail customer, a small business owner, or a wealth management
+                                    client, we've got the right financial solutions for you. Our commitment to
+                                    innovation and customer service is unwavering. Let's embark on a financial journey
+                                    together with Bank of America.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card main-det">
+                    <div class="card-body tarjeta">
+                        <h5 class="card-title titulo">Citibank</h5>
+                        <p class="card-text"><strong>Five Star Ratio:</strong> ★★★★★</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#c2">
+                            Details
+                        </button>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="c2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog detalle">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-3" id="exampleModalLabel">Citibank</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p><strong>Buyer:</strong> John Doe</p>
+                                <p><strong>Five Star Ratio:</strong> ★★★★★</p>
+                                <p><strong>Top News Links:</strong></p>
+                                <ul class="top3">
+                                    <li class="list-det"><a
+                                            href="https://news.google.com/topics/CAAqIggKIhxDQkFTRHdvSkwyMHZNREZqY0hKNUVnSmxiaWdBUAE?hl=en-US&gl=US&ceid=US%3Aen">Citibank
+                                            Newss</a></li>
+                                    <li class="list-det"><a
+                                            href="https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREZqY0hKNUVnSmxiaWdBUAE?hl=en-US&gl=US&ceid=US%3Aen">International
+                                            Banking</a></li>
+                                    <li class="list-det"><a
+                                            href="https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREZqY0hKNUVnSmxiaWdBUAE?hl=en-US&gl=US&ceid=US%3Aen">Citibank
+                                            Business</a></li>
+                                </ul>
+                                <p><strong>Selling Template:</strong></p>
+                                <p>Hello there! Citibank, with its prestigious 5-star rating, is your gateway to
+                                    world-class financial services. Whether you're a high-net-worth individual, an
+                                    international client, or a business seeking global solutions, we're here to elevate
+                                    your financial experience. Let's discuss how Citibank can open doors to new
+                                    opportunities.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card main-det">
+                    <div class="card-body tarjeta">
+                        <h5 class="card-title titulo">Goldman Sachs</h5>
+                        <p class="card-text"><strong>Five Star Ratio:</strong> ★★★★★</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#c3">
+                            Details
+                        </button>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="c3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog detalle">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-3" id="exampleModalLabel">Goldman Sachs</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p><strong>Buyer:</strong> John Doe</p>
+                                <p><strong>Five Star Ratio:</strong> ★★★★★</p>
+                                <p><strong>Top News Links:</strong></p>
+                                <ul class="top3">
+                                    <li class="list-det"><a
+                                            href="https://news.google.com/topics/CAAqLAgKIiZDQkFTRXdvSUwyMHZNREZqY0hKNUVnSmxiaWdBUAE?hl=en-US&gl=US&ceid=US%3Aen">Goldman
+                                            Sachs News</a></li>
+                                    <li class="list-det"><a
+                                            href="https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREZqY0hKNUVnSmxiaWdBUAE?hl=en-US&gl=US&ceid=US%3Aen">Investment
+                                            Banking</a></li>
+                                    <li class="list-det"><a
+                                            href="https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREZqY0hKNUVnSmxiaWdBUAE?hl=en-US&gl=US&ceid=US%3Aen">Goldman
+                                            Sachs Business</a></li>
+                                </ul>
+                                <p><strong>Selling Template:</strong></p>
+                                <p>Greetings! Goldman Sachs, a 5-star institution, is your partner in navigating the
+                                    complexities of the financial world. Whether you're a high-net-worth individual, an
+                                    institutional investor, or a corporation with intricate financial needs, we have the
+                                    expertise to guide you towards success. Let's embark on a journey to unlock new
+                                    possibilities together.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card main-det">
+                    <div class="card-body tarjeta">
+                        <h5 class="card-title titulo">Morgan Stanley</h5>
+                        <p class="card-text"><strong>Five Star Ratio:</strong> ★★★★</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#c4">
+                            Details
+                        </button>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="c4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog detalle">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-3" id="exampleModalLabel">Morgan Stanley</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p><strong>Buyer:</strong> John Doe</p>
+                                <p><strong>Five Star Ratio:</strong> ★★★★</p>
+                                <p><strong>Top News Links:</strong></p>
+                                <ul class="top3">
+                                    <li class="list-det"><a
+                                            href="https://news.google.com/topics/CAAqIggKIhxDQkFTRHdvSkwyMHZNREZqY0hKNUVnSmxiaWdBUAE?hl=en-US&gl=US&ceid=US%3Aen">Morgan
+                                            Stanley News</a></li>
+                                    <li class="list-det"><a
+                                            href="https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREZqY0hKNUVnSmxiaWdBUAE?hl=en-US&gl=US&ceid=US%3Aen">Investment
+                                            and Wealth Management</a></li>
+                                    <li class="list-det"><a
+                                            href="https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREZqY0hKNUVnSmxiaWdBUAE?hl=en-US&gl=US&ceid=US%3Aen">Morgan
+                                            Stanley Business</a></li>
+                                </ul>
+                                <p><strong>Selling Template:</strong></p>
+                                <p>Hello! Morgan Stanley, with its distinguished 5-star rating, offers you the pinnacle
+                                    of financial expertise. Whether you're a high-net-worth individual, a financial
+                                    professional, or an institutional client, we're here to provide tailored solutions
+                                    that align with your goals. Let's discuss how Morgan Stanley can elevate your
+                                    financial strategies.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card main-det">
+                    <div class="card-body tarjeta">
+                        <h5 class="card-title titulo">U.S. Bank</h5>
+                        <p class="card-text"><strong>Five Star Ratio:</strong> ★★★★</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#c5">
+                            Details
+                        </button>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="c5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog detalle">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-3" id="exampleModalLabel">U.S. Bank</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p><strong>Buyer:</strong> John Doe</p>
+                                <p><strong>Five Star Ratio:</strong> ★★★★</p>
+                                <p><strong>Top News Links:</strong></p>
+                                <ul class="top3">
+                                    <li class="list-det"><a
+                                            href="https://news.google.com/topics/CAAqLAgKIiZDQkFTRXdvSUwyMHZNREZqY0hKNUVnSmxiaWdBUAE?hl=en-US&gl=US&ceid=US%3Aen">U.S.
+                                            Bank News</a></li>
+                                    <li class="list-det"><a
+                                            href="https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREZqY0hKNUVnSmxiaWdBUAE?hl=en-US&gl=US&ceid=US%3Aen">Banking
+                                            and Finance Updates</a></li>
+                                    <li class="list-det"><a
+                                            href="https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREZqY0hKNUVnSmxiaWdBUAE?hl=en-US&gl=US&ceid=US%3Aen">U.S.
+                                            Bank Business</a></li>
+                                </ul>
+                                <p><strong>Selling Template:</strong></p>
+                                <p>Greetings! U.S. Bank proudly holds a 5-star rating, a testament to our unwavering
+                                    commitment to our customers. Whether you're a retail customer, a small business
+                                    owner, or a corporate client, we offer a range of financial solutions designed to
+                                    meet your unique needs. Let's explore how U.S. Bank can support your financial
+                                    journey.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card main-det">
+                    <div class="card-body tarjeta">
+                        <h5 class="card-title titulo">PNC Financial Services Group</h5>
+                        <p class="card-text"><strong>Five Star Ratio:</strong> ★★★★</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#c6">
+                            Details
+                        </button>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="c6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog detalle">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-3" id="exampleModalLabel">PNC Financial Services Group</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p><strong>Buyer:</strong> John Doe</p>
+                                <p><strong>Five Star Ratio:</strong> ★★★★</p>
+                                <p><strong>Top News Links:</strong></p>
+                                <ul class="top3">
+                                    <li class="list-det"><a
+                                            href="https://news.google.com/topics/CAAqIggKIhxDQkFTRHdvSkwyMHZNREZqY0hKNUVnSmxiaWdBUAE?hl=en-US&gl=US&ceid=US%3Aen">PNC
+                                            Financial News</a></li>
+                                    <li class="list-det"><a
+                                            href="https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREZqY0hKNUVnSmxiaWdBUAE?hl=en-US&gl=US&ceid=US%3Aen">Banking
+                                            Industry Updates</a></li>
+                                    <li class="list-det"><a
+                                            href="https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREZqY0hKNUVnSmxiaWdBUAE?hl=en-US&gl=US&ceid=US%3Aen">PNC
+                                            Business</a></li>
+                                </ul>
+                                <p><strong>Selling Template:</strong></p>
+                                <p>Hello there! PNC Financial Services Group, with its esteemed 4-star rating, is your
+                                    trusted partner in financial success. Whether you're a retail customer, a small
+                                    business owner, or a corporate entity, we offer a wide array of financial solutions
+                                    to help you thrive. Let's discuss how PNC can empower your financial endeavors.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card main-det">
+                    <div class="card-body tarjeta">
+                        <h5 class="card-title titulo">Truist Financial Corporation</h5>
+                        <p class="card-text"><strong>Five Star Ratio:</strong> ★★★★★</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#c7">
+                            Details
+                        </button>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="c7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog detalle">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-3" id="exampleModalLabel">Truist Financial Corporation</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p><strong>Buyer:</strong> John Doe</p>
+                                <p><strong>Five Star Ratio:</strong> ★★★★★</p>
+                                <p><strong>Top News Links:</strong></p>
+                                <ul class="top3">
+                                    <li class="list-det"><a
+                                            href="https://news.google.com/topics/CAAqLAgKIiZDQkFTRXdvSUwyMHZNREZqY0hKNUVnSmxiaWdBUAE?hl=en-US&gl=US&ceid=US%3Aen">Truist
+                                            Financial News</a></li>
+                                    <li class="list-det"><a
+                                            href="https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREZqY0hKNUVnSmxiaWdBUAE?hl=en-US&gl=US&ceid=US%3Aen">Financial
+                                            Services Updates</a></li>
+                                    <li class="list-det"><a
+                                            href="https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREZqY0hKNUVnSmxiaWdBUAE?hl=en-US&gl=US&ceid=US%3Aen">Truist
+                                            Business</a></li>
+                                </ul>
+                                <p><strong>Selling Template:</strong></p>
+                                <p>Greetings! Truist Financial Corporation, with its stellar 5-star rating, is dedicated
+                                    to your financial well-being. Whether you're a retail customer, a small business
+                                    owner, or a corporate client, we offer a broad range of financial solutions to
+                                    support your unique objectives. Let's explore how Truist can be your partner in
+                                    financial success.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card main-det">
+                    <div class="card-body tarjeta">
+                        <h5 class="card-title titulo">TD Bank</h5>
+                        <p class="card-text"><strong>Five Star Ratio:</strong> ★★★★</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#c8">
+                            Details
+                        </button>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="c8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog detalle">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-3" id="exampleModalLabel">TD Bank</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p><strong>Buyer:</strong> John Doe</p>
+                                <p><strong>Five Star Ratio:</strong> ★★★★</p>
+                                <p><strong>Top News Links:</strong></p>
+                                <ul class="top3">
+                                    <li class="list-det"><a
+                                            href="https://news.google.com/topics/CAAqIggKIhxDQkFTRHdvSkwyMHZNREZqY0hKNUVnSmxiaWdBUAE?hl=en-US&gl=US&ceid=US%3Aen">TD
+                                            Bank News</a></li>
+                                    <li class="list-det"><a
+                                            href="https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREZqY0hKNUVnSmxiaWdBUAE?hl=en-US&gl=US&ceid=US%3Aen">Banking
+                                            Industry Insights</a></li>
+                                    <li class="list-det"><a
+                                            href="https://news.google.com/topics/CAAqIQgKIhtDQkFTRGdvSUwyMHZNREZqY0hKNUVnSmxiaWdBUAE?hl=en-US&gl=US&ceid=US%3Aen">TD
+                                            Bank Business</a></li>
+                                </ul>
+                                <p><strong>Selling Template:</strong></p>
+                                <p>Hello! TD Bank, a 5-star institution, is your neighborhood bank committed to making
+                                    banking simpler and more convenient. Whether you're a retail customer or a small
+                                    business owner, we offer a suite of financial products and services designed with
+                                    you in mind. Let's discuss how TD Bank can make your financial life easier and more
+                                    secure.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </main>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+</body>
+
+</html>
