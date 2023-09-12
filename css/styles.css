@@ -15,10 +15,11 @@ body, ul {
     overflow-y: auto;
     padding-top: 20px !important;
     color: #fff !important;
+    transition-duration: 0.5s;
 }
 
 .sidebar a:hover {
-    transform: scale(1.2); /* Makes the item slightly bigger on hover */
+    transform: scale(1.2) !important; /* Makes the item slightly bigger on hover */
 }
 
 /* Style the logo */
@@ -26,6 +27,16 @@ body, ul {
     text-align: center !important;
     margin: 5px 43px !important;
     width: 150px !important;
+}
+
+.ratio{
+    font-size: x-large !important;
+    text-align: center !important;
+    font-weight: bold !important;
+}
+
+.inner-ratio{
+    font-weight: bold !important;
 }
 
 .prod{
@@ -47,6 +58,7 @@ body, ul {
 .list-det{
     padding: 10px 20px !important;
     color:black !important;
+    text-decoration: none !important;
 }
 
 .menu {
@@ -58,6 +70,7 @@ body, ul {
     font-family: sans-serif !important;
     color: #fff !important;
     display: block !important;
+    margin-left: 10px !important;
 }
 
 .tarjeta{
