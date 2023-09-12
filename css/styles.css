@@ -52,13 +52,17 @@ body, ul {
 
 .top3{
     list-style-type: none !important;
-    margin-top: 10px !important; 
+    margin-top: 0px !important; 
 }
 
 .list-det{
     padding: 10px 20px !important;
     color:black !important;
     text-decoration: none !important;
+}
+
+.sell-title{
+    margin-top: 10px !important;
 }
 
 .menu {
@@ -116,6 +120,11 @@ i {
     text-decoration: none !important;
     color: black !important;
 }
+
+.top-link{
+    margin-bottom: 5px !important;
+}
+
 .news-links {
     margin-top: 10px;
 }
