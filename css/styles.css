@@ -93,6 +93,11 @@ body, ul {
     width: 270px !important;
 }
 
+.metrica{
+    width: 100% !important;
+    box-shadow: 5px 5px 5px lightgray !important;
+}
+
 .main-det{
     margin: 25px !important;
     box-shadow: 5px 5px 5px lightgray !important;
